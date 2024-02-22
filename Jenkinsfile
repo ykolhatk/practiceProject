@@ -32,7 +32,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 // Deploy your application (replace with your deployment commands)
-                'echo "Deploying..."'
+                echo "Deploying..."
             }
         }
     }
